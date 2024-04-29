@@ -5,22 +5,7 @@ const fs = require('fs');
 
 // array of questions for user input
 const questions = [
-    
-    fileName = inquirer.prompt(
-        {
-            type: "input",
-            name: "title",
-            message: "Please enter the title for this readMe"
-        },
-    ),
 
-
-
-
-
-];
-
-// title + sections for (Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions)
     inquirer.prompt([
         // title
         {
@@ -77,7 +62,13 @@ const questions = [
             name: "email",
             message: "Please enter your email address"
         }
-    ]);
+    ])
+
+
+];
+
+// title + sections for (Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions)
+
 
 
 
@@ -87,7 +78,7 @@ const writeToFile = (fileName, data) => {
 
 
     fs.writeFile('readMe.md', data, (err) => {
-        err ? console.error(err) : console.log('Log created!')
+        err ? console.error(err) : console.log('readMe created!')
     })
 
 
