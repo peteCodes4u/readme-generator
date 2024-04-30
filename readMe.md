@@ -28,8 +28,9 @@ There are no additional contributors listed.
 ## Test Instructions
 Install node.js and inquirer then execute the index.js file using node. Follow the prompts and on completion inspect the readme.md file that is generated.
 
-## Github Username
-peteCodes4u
-
-## Additional Questions? Send an email to:
+## Additional Questions? Send an email or follow the link to my github profile:
+## Email
 peter.appliedanalyticalsciences@gmail.com
+
+## Github profile
+https://github.com/peteCodes4u 
