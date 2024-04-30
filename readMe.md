@@ -1,27 +1,28 @@
 
-    # ReadMe Generator
+# Readme Generator!
     
-    ## Description
-    This application generates a readme.Md file.
+## Description
+This application dynamically generates a readme file based on user input that has been enabled with  inquirer.
 
-    ## Installation Instructions
-    This app requires Inquirer from NPM and  Node.js. 
+## Installation Instructions
+In order to run this application inquirer from NPM and   node.js  are required.
 
-    ## Usage Information
-    The intended usage of the app is to programatically generate readme.md files.
+## Usage Information
+The intended usage for this application is to generate readme.md files.
 
-    ## Contributions
-    There are no additional contributors.
+## Contributions
 
-    ## Test Instructions
-    To test this app, install Inquirer and Node.js, then open a command terminal  and  execute the  index.js  file.  Follow the prompts and  inspect the  file output for validity.
 
-    ## License
-    MIT License
+## Test Instructions
+Install node.js and inquirer then execute the index.js file using node. Follow the prompts and on completion inspect the readme.md file that is generated.
 
-    ## Github Username
-    peteCodes4u
+## License
+MIT License
 
-    ## Additional Questions? Send an email to:
-    peter.appliedanalyticalsciences@gmail.com
-    
+
+## Github Username
+peteCodes4u
+
+## Additional Questions? Send an email to:
+peter.appliedanalyticalsciences@gmail.com
+

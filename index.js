@@ -75,33 +75,33 @@ const writeToFile = (fileName, data) => {
 
 const generateReadmeContent = function (answers){
 
-    return `
-    # ${answers.title}
+return `
+# ${answers.title}
     
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
 
-    ## Installation Instructions
-    ${answers.installationInstructions}
+## Installation Instructions
+${answers.installationInstructions}
 
-    ## Usage Information
-    ${answers.usageInfo}
+## Usage Information
+${answers.usageInfo}
 
-    ## Contributions
-    ${answers.contributions}
+## Contributions
+${answers.contributions}
 
-    ## Test Instructions
-    ${answers.testInstructions}
+## Test Instructions
+${answers.testInstructions}
 
-    ## License
-    ${answers.license}
+## License
+${answers.license}
 
-    ## Github Username
-    ${answers.gitHubUser}
+## Github Username
+${answers.gitHubUser}
 
-    ## Additional Questions? Send an email to:
-    ${answers.email}
-    `;
+## Additional Questions? Send an email to:
+${answers.email}
+`;
 }
 
 // propmt for user input
