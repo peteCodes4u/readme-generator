@@ -20,13 +20,13 @@ In order to run this application inquirer from NPM and   node.js  are required.
 The intended usage for this application is to generate readme.md files.
 
 ## Contributions
-No additional contributors listed.
+There are no additional contributors listed.
 
 ## Test Instructions
 Install node.js and inquirer then execute the index.js file using node. Follow the prompts and on completion inspect the readme.md file that is generated.
 
 ## License
-MIT License
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Github Username
 peteCodes4u
