@@ -108,11 +108,8 @@ ${answers.contributions}
 ${answers.testInstructions}
 
 ## Additional Questions? Send an email or follow the link to my github profile:
-## Email
-${answers.email}
-
-## Github profile
-https://github.com/${answers.gitHubUser} 
+Email - ${answers.email} 
+Github profile link - https://github.com/${answers.gitHubUser}  
 `;
 }
 
