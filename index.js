@@ -81,6 +81,15 @@ return `
 ## Description
 ${answers.description}
 
+## Table of Contents
+- [Installation Instructions](#Installation Instructions)
+- [Usage Information](#Usage Information)
+- [Contributions](#Contributions)
+- [Test Instructions](#Test Instructions)
+- [License](#License)
+- [Github Username](#Github Username)
+- [Additional Questions](#Additional Questions? Send an email to:)
+
 ## Installation Instructions
 ${answers.installationInstructions}
 
