@@ -107,11 +107,12 @@ ${answers.contributions}
 ## Test Instructions
 ${answers.testInstructions}
 
-## Github Username
-${answers.gitHubUser}
-
-## Additional Questions? Send an email to:
+## Additional Questions? Send an email or follow the link to my github profile:
+## Email
 ${answers.email}
+
+## Github profile
+https://github.com/${answers.gitHubUser} 
 `;
 }
 
