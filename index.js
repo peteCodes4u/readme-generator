@@ -2,11 +2,9 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 
-
 // array of questions for user input
 const questions = [
 
-    inquirer.prompt([
         // title
         {
             type: "input",
@@ -62,29 +60,55 @@ const questions = [
             name: "email",
             message: "Please enter your email address"
         }
-    ])
-
 
 ];
 
-// title + sections for (Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions)
-
-
-
-
-
-// TODO: Create a function to write README file
+// function to write README file
 const writeToFile = (fileName, data) => {
 
 
-    fs.writeFile('readMe.md', data, (err) => {
-        err ? console.error(err) : console.log('readMe created!')
+    fs.writeFile(fileName, data, (err) => {
+       if (err){console.log(err)} else {console.log('readme file successfully created!')}
     })
-
 
 };
 
+const generateReadmeContent = function (answers){
 
+    return `
+    # ${answers.title}
+    
+    ## Description
+    ${answers.description}
+
+    ## Installation Instructions
+    ${answers.installationInstructions}
+
+    ## Usage Information
+    ${answers.usageInfo}
+
+    ## Contributions
+    ${answers.contributions}
+
+    ## Test Instructions
+    ${answers.testInstructions}
+
+    ## License
+    ${answers.license}
+
+    ## Github Username
+    ${answers.gitHubUser}
+
+    ## Additional Questions? Send an email to:
+    ${answers.email}
+    `;
+}
+
+// propmt for user input
+inquirer.prompt(questions).then((answers) => {
+    const readmeContent = generateReadmeContent(answers);
+    writeToFile('readMe.md', readmeContent)
+})
 
 // TODO: Create a function to initialize app
 function init() {}
