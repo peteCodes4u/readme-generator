@@ -88,7 +88,7 @@ ${answers.description}
 - [Test Instructions](#Test-Instructions)
 - [License](#License)
 - [Github Username](#Github-Username)
-- [Additional Questions](#Additional-Questions?-Send-an-email-to:)
+- [Additional Questions](#additional-questions-send-an-email-to)
 
 ## Installation Instructions
 ${answers.installationInstructions}
