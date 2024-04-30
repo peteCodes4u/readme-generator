@@ -10,8 +10,7 @@ This application dynamically generates a readme file based on user input that ha
 - [License](#License)
 - [Contributions](#Contributions)
 - [Test Instructions](#Test-Instructions)
-- [Github Username](#Github-Username)
-- [Additional Questions](#additional-questions-send-an-email-to)
+- [Additional Questions](#additional-questions-send-an-email-or-follow-the-link-to-my-github-profile)
 
 ## Installation Instructions
 In order to run this application inquirer from NPM and   node.js  are required.

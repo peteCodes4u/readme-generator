@@ -89,8 +89,7 @@ ${answers.description}
 - [License](#License)
 - [Contributions](#Contributions)
 - [Test Instructions](#Test-Instructions)
-- [Github Username](#Github-Username)
-- [Additional Questions](#additional-questions-send-an-email-to)
+- [Additional Questions](#additional-questions-send-an-email-or-follow-the-link-to-my-github-profile)
 
 ## Installation Instructions
 ${answers.installationInstructions}
