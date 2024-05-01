@@ -18,6 +18,7 @@ This application dynamically generates a readme file based on user input that ha
 - step 1. clone the repository
 - step 2. using a terminal window install npm by executing the following command "npm install"
 - step 3. using a terminal window the app can be run using the "npm start" command.
+- link to demo video: https://drive.google.com/file/d/1oDJzp8r4d2NmstPvYDjVX5BS_LAmbdD8/view?usp=drive_link
 
 ## Usage Information
 The intended usage for this application is to generate readme.md files.
