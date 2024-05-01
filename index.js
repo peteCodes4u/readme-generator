@@ -112,11 +112,7 @@ Github profile link - https://github.com/${answers.gitHubUser}
 `;
 }
 
-// propmt for user input
-inquirer.prompt(questions).then((answers) => {
-    const readmeContent = generateReadmeContent(answers);
-    writeToFile('README.md', readmeContent)
-})
+
 
 // generate badge for licesnse
 function createLicenseBadge(license) {
@@ -147,8 +143,16 @@ function createLicenseBadge(license) {
 
 
 
-// TODO: Create a function to initialize app
-function init() { }
+// Create a function to initialize app
+function init() {
+
+// propmt for user input
+inquirer.prompt(questions).then((answers) => {
+    const readmeContent = generateReadmeContent(answers);
+    writeToFile('README-template.md', readmeContent)
+})
+
+ }
 
 // Function call to initialize app
 init();
