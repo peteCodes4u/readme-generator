@@ -10,6 +10,7 @@ describe('README Generator', () => {
         expect(createLicenseBadge('Apache License 2.0')).toBe('![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)');
         expect(createLicenseBadge('GNU GPLv3')).toBe('![GNU GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)');
         expect(createLicenseBadge('GNU GPLv2')).toBe('![GNU GPLv2](https://img.shields.io/badge/License-GPLv2-blue.svg)');
+        expect(createLicenseBadge('None')).toBe('No license listed');
     });
 
 
