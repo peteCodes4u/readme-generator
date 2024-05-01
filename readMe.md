@@ -12,8 +12,12 @@ This application dynamically generates a readme file based on user input that ha
 - [Additional Questions](#additional-questions-send-an-email-or-follow-the-link-to-my-github-profile)
 
 ## Installation Instructions
-- In order to run this application inquirer from NPM and node.js  are required.
-- This app will execute by entering the following command in the terminal "npm start".
+- In order to run this application npm, inquirer from npm, and node.js are required.
+- This app will execute by entering the following command in the terminal "npm start" after npm has been installed.
+## Detailed Instructions
+- step 1. clone the repository
+- step 2. using a terminal window install npm by executing the following command "npm install"
+- step 3. using a terminal window the app can be run using the "npm start" command.
 
 ## Usage Information
 The intended usage for this application is to generate readme.md files.
@@ -25,7 +29,8 @@ The intended usage for this application is to generate readme.md files.
 There are no additional contributors listed.
 
 ## Test Instructions
-- Install node.js and inquirer then execute the index.js file using node. Follow the prompts and on completion inspect the readme.md file that is generated.
+- Install node.js and npm then execute the index.js file using "npm start" command in the terminal window.
+- Follow the prompts displayed in the terminal and on completion inspect the readme.md file that is generated.
 - this app also maintains unit tests developed with the jest test framework. The unit tests can be executed using the following command in the terminal "npm test". 
 
 ## Additional Questions? Send an email or follow the link to my github profile:
