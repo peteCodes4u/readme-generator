@@ -46,7 +46,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Select the license(s) for this application",
-        choices: ["MIT License", "ISC License", "Apache License 2.0", "GNU GPLv3", "GNU GPLv2"],
+        choices: ["MIT License", "ISC License", "Apache License 2.0", "GNU GPLv3", "GNU GPLv2", "None"],
     },
     // github username
     {
@@ -130,7 +130,7 @@ function createLicenseBadge(license) {
                 } else {
                     if (license == 'GNU GPLv2') {
                         badgeURL = '![GNU GPLv2](https://img.shields.io/badge/License-GPLv2-blue.svg)';
-                    } else { badgeURL = ''; }
+                    } else { badgeURL = 'No license listed'; }
                 }
             }
         }
