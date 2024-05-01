@@ -77,9 +77,8 @@ const generateReadmeContent = function (answers) {
 
     const licenseBadge = createLicenseBadge(answers.license);
 
-    return `
-# ${answers.title}
-    
+    return `# ${answers.title}
+
 ## Description
 ${answers.description}
 
@@ -108,8 +107,7 @@ ${answers.testInstructions}
 
 ## Additional Questions? Send an email or follow the link to my github profile:
 Email - ${answers.email} 
-Github profile link - https://github.com/${answers.gitHubUser}  
-`;
+Github profile link - https://github.com/${answers.gitHubUser}`;
 }
 
 
@@ -146,13 +144,25 @@ function createLicenseBadge(license) {
 // Create a function to initialize app
 function init() {
 
-// propmt for user input
-inquirer.prompt(questions).then((answers) => {
-    const readmeContent = generateReadmeContent(answers);
-    writeToFile('README-template.md', readmeContent)
-})
+    // helpful hint to quit application
+    const helpfulHint = () => {
+        console.log("Helpful hint - to quit this app anytime press ctrl + c")
+    }
 
- }
+    helpfulHint();
+
+    // propmt for user input
+    inquirer.prompt(questions).then((answers) => {
+        const readmeContent = generateReadmeContent(answers);
+        writeToFile('README-template.md', readmeContent)
+    })
+
+}
 
 // Function call to initialize app
 init();
+
+module.exports = {
+    createLicenseBadge, 
+    generateReadmeContent
+};
