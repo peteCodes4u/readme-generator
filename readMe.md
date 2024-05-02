@@ -23,6 +23,8 @@ This application dynamically generates a readme file based on user input that ha
 ## Usage Information
 The intended usage for this application is to generate readme.md files.
 
+![](./images/readmeGenerator.gif)
+
 ## License
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
